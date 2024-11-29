@@ -1,0 +1,20 @@
+.hover {
+  position: relative;
+}
+
+.hover ul {
+  list-style: none;
+  background-color: white;
+  position: absolute;
+  z-index: 100;
+  padding: 3px 5px;
+  display: none;
+  transition: all 300ms ease-in-out 300ms;
+}
+
+.hover:hover ul {
+  display: block;
+}
+body{
+  background-color: white;
+}

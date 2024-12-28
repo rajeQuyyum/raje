@@ -15,6 +15,8 @@ import Skills from './assets/Aboutlinks/Skills'
 import Career from './assets/Aboutlinks/Career'
 import Seminar from './profilelinks/Seminar'
 import Certificate from './profilelinks/Certificate'
+import Apps from './pages/Contact/Apps'
+import Applic from './pages/Contact/Applic'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,6 +40,8 @@ function App() {
       <Route path='career' element={<Career />} />
       <Route path='seminar' element={<Seminar />} />
       <Route path='certifcate' element={<Certificate />} />
+      <Route path='apps' element={<Apps />} />
+      <Route path='applic' element={<Applic />} />
 
     </Routes>
     </BrowserRouter>

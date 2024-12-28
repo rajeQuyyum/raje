@@ -105,12 +105,19 @@ export default function Navbar() {
                <div className='link hover'>
                <IoMdArrowDropdown />
 
-               <ul>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
+               <ul className=' font-sans text-black text-sm'>
+                <div className='flex  flex-col gap-2 mb-2'>
+                <li onClick={() => setDisplay(prev => !prev)}><NavLink to="apps">Application</NavLink></li>
+                <div className='border-b'>
+                </div>
+                </div>
+                <div className='flex  flex-col gap-2 mb-2'>
+                <li onClick={() => setDisplay(prev => !prev)}><NavLink to="applic">Contact us</NavLink></li>
+                <div className='border-b'>
+                </div>
+                </div>
+        
+                
 
             </ul>
                </div>

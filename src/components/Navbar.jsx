@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     
 
-    <nav className='flex justify-between py-5 px-5 items-center  lg:px-20 md:px-5 bg-cyan-500'>
+    <nav className='flex justify-between py-5 px-5 items-center fixed w-[100%]  lg:px-20 md:px-5 bg-cyan-500'>
         <div className='flex items-center'>
         <GiDrowning className='text-4xl' />
      <h1 className='md:text-2xl text-4xl md:hidden lg:block font-serif'>RAJ</h1>

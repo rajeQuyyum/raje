@@ -210,7 +210,7 @@ export default function Hire() {
         <h1 className='text-xl font-bold'>Tell Us About your project</h1>
 
 
-          <textarea className='w-[100%] h-40 resize-none px-4 py-3 rounded-md mb-10' name="" id="" placeholder='Tell Us About your project'></textarea>
+          <textarea className='w-[100%] h-40 resize-none pl-1 py-3 rounded-md mb-10 outline-none border-4 border-gray-500' name="" id="" placeholder='Tell Us About your project'></textarea>
 
            <button className='w-[100%] bg-blue-700 text-white py-5 rounded-md'>Submit</button>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-   <section className='bg-cyan-50'>
+    <section className='bg-cyan-50'>
     <div className='pt-32 text-3xl font-semibold text-center text-gray-500 mb-10'>
       <h1>Contact Me</h1>
     </div>

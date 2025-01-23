@@ -17,7 +17,7 @@ export default function Seminar() {
          Date
          [Brief description of the topic or key takeaways]</li>
          <p>These events have not only helped me stay on top of industry trends but also improved my ability to collaborate with other developers and share insights within the community.</p>
-         <p>This section helps showcase your involvement in the developer community and your continuous learning mindset. Let me know if you want any adjustments!</p>
+         <p>This section helps showcase your involvement in the developer community and your continuous learning mindset. Let me know if you want any adjustments</p>
       </div>
     </section>
   )

@@ -20,7 +20,7 @@ export default function Certificate() {
 
         <p>These certifications reflect my commitment to learning and mastering the tools and frameworks that help me build better solutions for my clients and projects.</p>
 
-        <p>This gives a clean and professional look, while also highlighting your dedication to growth. You can tweak it to match the exact certifications you've earned. Let me know if you want it adjusted further!</p>
+        <p>This gives a clean and professional look, while also highlighting your dedication to growth. You can tweak it to match the exact certifications you've earned. Let me know if you want it adjusted further</p>
       </div>
      
     </section>

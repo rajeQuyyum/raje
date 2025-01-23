@@ -12,7 +12,7 @@ export default function About() {
        <p className='mb-5'>I believe in [core values or principles you follow in your work, e.g., quality, collaboration, innovation, etc.], and my goal is always to deliver thoughtful, well-crafted solutions that make an impact. Whether I’m designing a brand from scratch, developing a user-friendly website, or telling a compelling story through visuals, I bring dedication and attention to detail to every project.
 
         When I’m not working, you can find me [something personal or a hobby, e.g., exploring new tech trends, traveling, or diving into a good book].</p>
-        <p className='mb-8'>Feel free to explore my work, and let’s connect if you think we can collaborate or if you simply want to chat about [your profession or interests].</p>
+        <p className='mb-8'>Feel free to explore my work, and let’s connect if you think we can collaborate or if you simply want to chat about [your profession or interest].</p>
 
 
       </div>

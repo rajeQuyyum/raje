@@ -26,7 +26,7 @@ export default function Navbar() {
         <input className='rounded-lg w-20 md:hidden block' type="text" />
      </div>
 
-     <ul className={`flex flex-col md:flex-row justify-between md:w-[700px] w-full bg-white md:bg-transparent items-center text-2xl gap-2 font-serif top-20 py-6 md:py-0 absolute md:static ${display ? 'left-0' : 'left-[-100%]'}`}>
+     <ul className={`flex flex-col md:flex-row justify-between md:w-[700px] w-full bg-white md:bg-transparent items-center text-2xl gap-2 font-serif top-20 py-6 md:py-0 absolute md:static transition-all ease-in-out duration-75 ${display ? 'left-0' : 'left-[-100%]'}`}>
         <li className=''>
             <div className='flex items-center'>
                 <li onClick={() => setDisplay(prev => !prev)}><NavLink to="/">Home</NavLink></li>

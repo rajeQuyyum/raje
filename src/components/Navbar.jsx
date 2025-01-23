@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     
 
-    <nav className='flex justify-between py-5 px-5 items-center fixed w-[100%]  lg:px-20 md:px-5 bg-cyan-500'>
+    <nav className='flex justify-between py-5 px-5 items-center fixed w-[100%]  lg:px-20 md:px-5 bg-cyan-500 mb-10'>
         <div className='flex items-center'>
         <GiDrowning className='text-4xl' />
      <h1 className='md:text-2xl text-4xl md:hidden lg:block font-serif'>RAJ</h1>
@@ -66,11 +66,17 @@ export default function Navbar() {
                <div className='link hover'>
                <IoMdArrowDropdown />
 
-               <ul>
+               <ul className='font-sans text-black text-sm'>
+                <div className='flex  flex-col gap-2 mb-2'>
                 <li onClick={() => setDisplay(prev => !prev)}><NavLink to="skills">Skills</NavLink></li>
+                <div className='border-b'>
+                </div>
+                </div>
+                <div className='flex  flex-col gap-2 mb-2'>
                 <li onClick={() => setDisplay(prev => !prev)}><NavLink to="career">Career</NavLink></li>
-                <li onClick={() => setDisplay(prev => !prev)}><NavLink to="exp">Expirience</NavLink></li>
-                
+                <div className='border-b'>
+                </div>
+                </div>
 
             </ul>
                </div>
@@ -83,20 +89,29 @@ export default function Navbar() {
         <li className=''>
             <div className='flex items-center'>
                 <li onClick={() => setDisplay(prev => !prev)}><NavLink to="profile">Profile</NavLink></li>
-                
-                <div className='hover link'>
-                <IoMdArrowDropdown />
+               
+               <div className='link hover'>
+               <IoMdArrowDropdown />
 
-                <ul>
-                <li><NavLink to="seminar">Serminar</NavLink></li>
-                <li><NavLink to="certifcate">Certificate</NavLink></li>
-                
-            </ul>
+               <ul className='font-sans text-black text-sm'>
+                <div className='flex  flex-col gap-2 mb-2'>
+                <li onClick={() => setDisplay(prev => !prev)}><NavLink to="seminar">Seminars</NavLink></li>
+                <div className='border-b'>
                 </div>
+                </div>
+                <div className='flex  flex-col gap-2 mb-2'>
+                <li onClick={() => setDisplay(prev => !prev)}><NavLink to="certificate">Certificate</NavLink></li>
+                <div className='border-b'>
+                </div>
+                </div>
+
+            </ul>
+               </div>
             </div>
 
            
         </li>
+
 
 
         <li className=''>

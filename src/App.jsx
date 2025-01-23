@@ -39,7 +39,7 @@ function App() {
       <Route path='skills' element={<Skills />} />
       <Route path='career' element={<Career />} />
       <Route path='seminar' element={<Seminar />} />
-      <Route path='certifcate' element={<Certificate />} />
+      <Route path='certificate' element={<Certificate />} />
       <Route path='apps' element={<Apps />} />
       <Route path='applic' element={<Applic />} />
 
